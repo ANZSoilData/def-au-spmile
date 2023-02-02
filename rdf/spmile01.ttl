@@ -1,0 +1,810 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix s: <http://anzsoil.org/def/au/spm/spmile> .
+@prefix schema: <http://schema.org/> .
+@prefix sdo: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://anzsoil.org/def/au/spm/spmile> a skos:ConceptScheme;
+  dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular>;
+  dcterms:contributor "Australian collaborative land evaluation program (ACLEP) https://www.clw.csiro.au/aclep/"@en,
+    "National Heritage Trust"@en, <https://orcid.org/0000-0002-2991-2308>, <https://orcid.org/0000-0002-3884-3420>,
+    <https://ror.org/03qn8fb07>;
+  dcterms:created "2022-02-01"^^xsd:date;
+  dcterms:creator "Hamish Cresswell"@en, "Kep Coughlan"@en, "Neil McKenzie"@en;
+  dcterms:description "This Concept Scheme is a machine-readable representation of the soil physical methods and their codes in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. CSIRO Publishing 2002. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671. The list includes soil physical measurement methods including procedures for field sampling, individual methods for pore space relations, water retention, hydraulic conductivity, watertable depth, dispersion, aggregation, particle size, shrinkage, Atterberg limits and strength and procedures for estimating soil physical properites from more readliy available data."^^rdf:HTML;
+  dcterms:identifier "http://anzsoil.org/def/au/scma/spmile"^^xsd:anyURI;
+  dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/2188013>;
+  dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:publisher <https://ror.org/051hpv692>;
+  dcterms:rights "All rights reserved. Except under the conditions described in the Australian Copyright Act 1968 and subsequent amendments, no part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, duplicating or otherwise, without the prior permission of the copyright owner. Contact CSIRO PUBLISHING for all permission requests."@en;
+  dcterms:rightsHolder <https://ror.org/051hpv692>;
+  dcterms:source "Soil physical measurement and interpretation for land evaluation. Neil McKenzie, Kep Coughlan and Hamish Cresswell. CSIRO Publishing 2002."@en;
+  dcterms:title "Soil Physical Measurements and Interpretation for Land Evaluation"@en;
+  skos:editorialNote "\"The first digit in the code is 5 and it refers to the volume number of this Handbook. The second and third digits refer to the measurement method via the chapter number, while digits after the decimal refer to variants of each method\" (Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. CSIRO Publishing 2002)"@en,
+    "The data was converted from a HTML representation to this 'linked-data' format by Megan Wong as part of the Australian National Soil Information System (ANSIS) initiative supported under the National Soil Strategy, Australian Government Department of Agriculture, Fisheries and Forestry https://ror.org/030c92375"@en;
+  skos:hasTopConcept <http://anzsoil.org/def/au/spm/spmile502.01>, <http://anzsoil.org/def/au/spm/spmile502.02>,
+    <http://anzsoil.org/def/au/spm/spmile502.03>, <http://anzsoil.org/def/au/spm/spmile502.04>,
+    <http://anzsoil.org/def/au/spm/spmile502.05>, <http://anzsoil.org/def/au/spm/spmile503.01>,
+    <http://anzsoil.org/def/au/spm/spmile503.02>, <http://anzsoil.org/def/au/spm/spmile503.03>,
+    <http://anzsoil.org/def/au/spm/spmile503.04>, <http://anzsoil.org/def/au/spm/spmile503.05>,
+    <http://anzsoil.org/def/au/spm/spmile503.06>, <http://anzsoil.org/def/au/spm/spmile503.07>,
+    <http://anzsoil.org/def/au/spm/spmile503.08>, <http://anzsoil.org/def/au/spm/spmile503.09>,
+    <http://anzsoil.org/def/au/spm/spmile504.01>, <http://anzsoil.org/def/au/spm/spmile504.02>,
+    <http://anzsoil.org/def/au/spm/spmile504.03>, <http://anzsoil.org/def/au/spm/spmile505.01>,
+    <http://anzsoil.org/def/au/spm/spmile507.01>, <http://anzsoil.org/def/au/spm/spmile508.01>,
+    <http://anzsoil.org/def/au/spm/spmile509.01>, <http://anzsoil.org/def/au/spm/spmile510.01>,
+    <http://anzsoil.org/def/au/spm/spmile510.02>, <http://anzsoil.org/def/au/spm/spmile510.03>,
+    <http://anzsoil.org/def/au/spm/spmile510.04>, <http://anzsoil.org/def/au/spm/spmile510.05>,
+    <http://anzsoil.org/def/au/spm/spmile513.01>, <http://anzsoil.org/def/au/spm/spmile514.01>,
+    <http://anzsoil.org/def/au/spm/spmile514.02>, <http://anzsoil.org/def/au/spm/spmile514.03>,
+    <http://anzsoil.org/def/au/spm/spmile514.04>, <http://anzsoil.org/def/au/spm/spmile515.01>,
+    <http://anzsoil.org/def/au/spm/spmile516.01>, <http://anzsoil.org/def/au/spm/spmile517.01>,
+    <http://anzsoil.org/def/au/spm/spmile517.02>, <http://anzsoil.org/def/au/spm/spmile517.03>,
+    <http://anzsoil.org/def/au/spm/spmile517.04>, <http://anzsoil.org/def/au/spm/spmile517.05>,
+    <http://anzsoil.org/def/au/spm/spmile517.06>, <http://anzsoil.org/def/au/spm/spmile517.07>,
+    <http://anzsoil.org/def/au/spm/spmile517.08>, <http://anzsoil.org/def/au/spm/spmile517.09>,
+    <http://anzsoil.org/def/au/spm/spmile517.10>, <http://anzsoil.org/def/au/spm/spmile517.11>,
+    <http://anzsoil.org/def/au/spm/spmile517.12>, <http://anzsoil.org/def/au/spm/spmile517.13>,
+    <http://anzsoil.org/def/au/spm/spmile517.14>, <http://anzsoil.org/def/au/spm/spmile517.15>,
+    <http://anzsoil.org/def/au/spm/spmile517.16>, <http://anzsoil.org/def/au/spm/spmile518.01>,
+    <http://anzsoil.org/def/au/spm/spmile518.02>, <http://anzsoil.org/def/au/spm/spmile518.03>,
+    <http://anzsoil.org/def/au/spm/spmile519.01>, <http://anzsoil.org/def/au/spm/spmile519.02>,
+    <http://anzsoil.org/def/au/spm/spmile519.03>, <http://anzsoil.org/def/au/spm/spmile520.01>,
+    <http://anzsoil.org/def/au/spm/spmile521.01>;
+  sdo:codeRepository <https://github.com/ANZSoilData/def-au-spmile>;
+  sdo:funder <https://ror.org/030c92375> .
+
+<http://anzsoil.org/def/au/spm/spmile02> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/02"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "A collection of field sampling procedures"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile502.01>, <http://anzsoil.org/def/au/spm/spmile502.02>,
+    <http://anzsoil.org/def/au/spm/spmile502.03>, <http://anzsoil.org/def/au/spm/spmile502.04>,
+    <http://anzsoil.org/def/au/spm/spmile502.05>;
+  skos:prefLabel "Field Sampling"@en .
+
+<http://anzsoil.org/def/au/spm/spmile502.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/502.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Field sampling of soil profile"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "502.01"^^xsd:numeric;
+  skos:prefLabel "Field sampling of soil profile"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile502.02> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/502.02"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Field collection of bulk specimens"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "502.02"^^xsd:numeric;
+  skos:prefLabel "Field collection of bulk specimens"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile502.03> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/502.03"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Field collection of small undisturbed cores"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "502.03"^^xsd:numeric;
+  skos:prefLabel "Field collection of small undisturbed cores"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile502.04> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/502.04"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Field collection of large undisturbed cores"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "502.04"^^xsd:numeric;
+  skos:prefLabel "Field collection of large undisturbed cores"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile502.05> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/502.05"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Field collection of clods"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "502.05"^^xsd:numeric;
+  skos:prefLabel "Field collection of clods"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile03> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/3"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "A collection of bulk density and pore space relations procedures"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile503.01>, <http://anzsoil.org/def/au/spm/spmile503.02>,
+    <http://anzsoil.org/def/au/spm/spmile503.03>, <http://anzsoil.org/def/au/spm/spmile503.04>,
+    <http://anzsoil.org/def/au/spm/spmile503.05>, <http://anzsoil.org/def/au/spm/spmile503.06>,
+    <http://anzsoil.org/def/au/spm/spmile503.07>, <http://anzsoil.org/def/au/spm/spmile503.08>,
+    <http://anzsoil.org/def/au/spm/spmile503.09>;
+  skos:prefLabel "Bulk Density and Pore Space Relations"@en .
+
+<http://anzsoil.org/def/au/spm/spmile503.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/503.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Bulk density – Intact small core"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "503.01"^^xsd:numeric;
+  skos:prefLabel "Bulk density – Intact small core"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile503.02> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/503.02"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Bulk density – Vertic properties, extruded small core"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "503.02"^^xsd:numeric;
+  skos:prefLabel "Bulk density – Vertic properties, extruded small core"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile503.03> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/503.03"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Bulk density – Intact clod"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "503.03"^^xsd:numeric;
+  skos:prefLabel "Bulk density – Intact clod"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile503.04> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/503.04"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Bulk density – Field excavation and water replacement"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "503.04"^^xsd:numeric;
+  skos:prefLabel "Bulk density – Field excavation and water replacement"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile503.05> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/503.05"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil with coarse fragments: Volumetric coarse fragment content"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "503.05"^^xsd:numeric;
+  skos:prefLabel "Soil with coarse fragments: Volumetric coarse fragment content"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile503.06> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/503.06"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil with coarse fragments: Gross bulk density (fine earth and coarse fragments)"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "503.06"^^xsd:numeric;
+  skos:prefLabel "Soil with coarse fragments: Gross bulk density (fine earth and coarse fragments)"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile503.07> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/503.07"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil with coarse fragments: Volume of porous coarse fragments"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "503.07"^^xsd:numeric;
+  skos:prefLabel "Soil with coarse fragments: Volume of porous coarse fragments"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile503.08> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/503.08"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil with coarse fragments: Bulk density of fine earth"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "503.08"^^xsd:numeric;
+  skos:prefLabel "Soil with coarse fragments: Bulk density of fine earth"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile503.09> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/503.09"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil with coarse fragments: Total pore space"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "503.09"^^xsd:numeric;
+  skos:prefLabel "Soil with coarse fragments: Total pore space"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile04> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/4"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "A collection of soil water characterisation procedures"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile504.01>, <http://anzsoil.org/def/au/spm/spmile504.02>,
+    <http://anzsoil.org/def/au/spm/spmile504.03>;
+  skos:prefLabel "The Soil Water Characteristic"@en .
+
+<http://anzsoil.org/def/au/spm/spmile504.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/504.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil water characteristic – Suction plate or table"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "504.01"^^xsd:numeric;
+  skos:prefLabel "Soil water characteristic – Suction plate or table"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile504.02> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/504.02"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil water characteristic – Pressure plate"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "504.02"^^xsd:numeric;
+  skos:prefLabel "Soil water characteristic – Pressure plate"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile504.03> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/504.03"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil water characteristic – Filter paper"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "504.03"^^xsd:numeric;
+  skos:prefLabel "Soil water characteristic – Filter paper"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile05> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/5"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Water Repellence"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile505.01>;
+  skos:prefLabel "Water Repellence"@en .
+
+<http://anzsoil.org/def/au/spm/spmile505.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/505.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Water repellence"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "505.01"^^xsd:numeric;
+  skos:prefLabel "Water repellence"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile07> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/7"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile507.01> .
+
+<http://anzsoil.org/def/au/spm/spmile507.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/507.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Field saturated hydraulic conductivity – Twin ring"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "507.01"^^xsd:numeric;
+  skos:prefLabel "Field saturated hydraulic conductivity – Twin ring"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile08> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/8"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile508.01> .
+
+<http://anzsoil.org/def/au/spm/spmile508.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/508.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Field unsaturated hydraulic conductivity – Tension infiltrometer"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "508.01"^^xsd:numeric;
+  skos:prefLabel "Field unsaturated hydraulic conductivity – Tension infiltrometer"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile09> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/9"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Field Measurement of Saturated Hydraulic Conductivity Using the Well Permeameter"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile509.01>;
+  skos:prefLabel "Field Measurement of Saturated Hydraulic Conductivity Using the Well Permeameter"@en .
+
+<http://anzsoil.org/def/au/spm/spmile509.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/509.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Field saturated hydraulic conductivity – Well permeameter"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "509.01"^^xsd:numeric;
+  skos:prefLabel "Field saturated hydraulic conductivity – Well permeameter"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile10> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/10"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Laboratory Measurement of Hydraulic Conductivity"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile510.01>, <http://anzsoil.org/def/au/spm/spmile510.02>,
+    <http://anzsoil.org/def/au/spm/spmile510.03>, <http://anzsoil.org/def/au/spm/spmile510.04>,
+    <http://anzsoil.org/def/au/spm/spmile510.05>;
+  skos:prefLabel "Laboratory Measurement of Hydraulic Conductivity"@en .
+
+<http://anzsoil.org/def/au/spm/spmile510.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/510.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Laboratory saturated hydraulic conductivity – Constant potential, large cores"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "510.01"^^xsd:numeric;
+  skos:prefLabel "Laboratory saturated hydraulic conductivity – Constant potential, large cores"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile510.02> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/510.02"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Laboratory saturated hydraulic conductivity – Constant potential, large cores, very permeable soil"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "510.02"^^xsd:numeric;
+  skos:prefLabel "Laboratory saturated hydraulic conductivity – Constant potential, large cores, very permeable soil"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile510.03> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/510.03"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Laboratory saturated hydraulic conductivity – Constant potential, large cores, very impermeable soil"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "510.03"^^xsd:numeric;
+  skos:prefLabel "Laboratory saturated hydraulic conductivity – Constant potential, large cores, very impermeable soil"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile510.04> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/510.04"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Laboratory unsaturated hydraulic conductivity – Constant potential, large cores"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "510.04"^^xsd:numeric;
+  skos:prefLabel "Laboratory unsaturated hydraulic conductivity – Constant potential, large cores"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile510.05> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/510.05"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Laboratory unsaturated hydraulic conductivity – Constant potential, small cores"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "510.05"^^xsd:numeric;
+  skos:prefLabel "Laboratory unsaturated hydraulic conductivity – Constant potential, small cores"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile13> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/13"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Emerson Dispersion Test"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile513.01>;
+  skos:prefLabel "Emerson Dispersion Test"@en .
+
+<http://anzsoil.org/def/au/spm/spmile513.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/513.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Emerson Dispersion Test"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "513.01"^^xsd:numeric;
+  skos:prefLabel "Emerson Dispersion Test"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile14> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/14"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Clay Dispersion"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile514.01>, <http://anzsoil.org/def/au/spm/spmile514.02>,
+    <http://anzsoil.org/def/au/spm/spmile514.03>, <http://anzsoil.org/def/au/spm/spmile514.04>;
+  skos:prefLabel "Clay Dispersion"@en .
+
+<http://anzsoil.org/def/au/spm/spmile514.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/514.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Clay dispersion"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "514.01"^^xsd:numeric;
+  skos:prefLabel "Clay dispersion"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile514.02> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/514.02"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Simplified clay dispersion"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "514.02"^^xsd:numeric;
+  skos:prefLabel "Simplified clay dispersion"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile514.03> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/514.03"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Dispersive potential"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "514.03"^^xsd:numeric;
+  skos:prefLabel "Dispersive potential"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile514.04> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/514.04"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Mechanical dispersive potential"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "514.04"^^xsd:numeric;
+  skos:prefLabel "Mechanical dispersive potential"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile15> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/15"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Measurement of Size Distributions of Dry Soil Aggregates"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile515.01>;
+  skos:prefLabel "Measurement of Size Distributions of Dry Soil Aggregates"@en .
+
+<http://anzsoil.org/def/au/spm/spmile515.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/515.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Dry aggregate distribution"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "515.01"^^xsd:numeric;
+  skos:prefLabel "Dry aggregate distribution"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile16> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/16"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Non-Dispersed Particle Size Analysis"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile516.01>;
+  skos:prefLabel "Non-Dispersed Particle Size Analysis"@en .
+
+<http://anzsoil.org/def/au/spm/spmile516.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/516.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Non-dispersed particle size analysis"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "516.01"^^xsd:numeric;
+  skos:prefLabel "Non-dispersed particle size analysis"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile17> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/17"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "A collection of particule size analysis procedures"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile517.01>, <http://anzsoil.org/def/au/spm/spmile517.02>,
+    <http://anzsoil.org/def/au/spm/spmile517.03>, <http://anzsoil.org/def/au/spm/spmile517.04>,
+    <http://anzsoil.org/def/au/spm/spmile517.05>, <http://anzsoil.org/def/au/spm/spmile517.06>,
+    <http://anzsoil.org/def/au/spm/spmile517.07>, <http://anzsoil.org/def/au/spm/spmile517.08>,
+    <http://anzsoil.org/def/au/spm/spmile517.09>, <http://anzsoil.org/def/au/spm/spmile517.10>,
+    <http://anzsoil.org/def/au/spm/spmile517.11>, <http://anzsoil.org/def/au/spm/spmile517.12>,
+    <http://anzsoil.org/def/au/spm/spmile517.13>, <http://anzsoil.org/def/au/spm/spmile517.14>,
+    <http://anzsoil.org/def/au/spm/spmile517.15>, <http://anzsoil.org/def/au/spm/spmile517.16>;
+  skos:prefLabel "Particle Size Analysis"@en .
+
+<http://anzsoil.org/def/au/spm/spmile517.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – No pretreatments"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.01"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – No pretreatments"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.02> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.02"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Organic matter removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.02"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Organic matter removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.03> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.03"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Soluble salts removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.03"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Soluble salts removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.04> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.04"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Organic matter and soluble salts removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.04"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Organic matter and soluble salts removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.05> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.05"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Fe / Al oxides removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.05"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Fe / Al oxides removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.06> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.06"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Fe / Al and organic matter removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.06"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Fe / Al and organic matter removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.07> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.07"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Fe / Al and soluble salts removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.07"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Fe / Al and soluble salts removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.08> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.08"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Fe / Al, organic matter and soluble salts removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.08"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Fe / Al, organic matter and soluble salts removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.09> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.09"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Carbonate removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.09"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Carbonate removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.10> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.10"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Carbonate and organic matter removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.1"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Carbonate and organic matter removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.11> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.11"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Carbonate and soluble salts removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.11"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Carbonate and soluble salts removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.12> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.12"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Carbonate and Fe / Al removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.12"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Carbonate and Fe / Al removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.13> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.13"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Carbonate, organic matter and soluble salts removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.13"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Carbonate, organic matter and soluble salts removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.14> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.14"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Carbonate, organic matter and Fe / Al removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.14"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Carbonate, organic matter and Fe / Al removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.15> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.15"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Carbonate, soluble salts and Fe / Al removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.15"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Carbonate, soluble salts and Fe / Al removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile517.16> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/517.16"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Particle size analysis – Carbonate, organic matter, soluble salts and Fe / Al removed"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "517.16"^^xsd:numeric;
+  skos:prefLabel "Particle size analysis – Carbonate, organic matter, soluble salts and Fe / Al removed"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile18> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/18"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "A collection of soil shrinkage procedures"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile518.01>, <http://anzsoil.org/def/au/spm/spmile518.02>,
+    <http://anzsoil.org/def/au/spm/spmile518.03>;
+  skos:prefLabel "Soil Shrinkage"@en .
+
+<http://anzsoil.org/def/au/spm/spmile518.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/518.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil Shrinkage – Linear shrinkage"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "518.01"^^xsd:numeric;
+  skos:prefLabel "Soil Shrinkage – Linear shrinkage"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile518.02> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/518.02"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil Shrinkage – Coefficient of linear shrinkage"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "518.02"^^xsd:numeric;
+  skos:prefLabel "Soil Shrinkage – Coefficient of linear shrinkage"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile518.03> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/518.03"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil Shrinkage – Modified linear shrinkage"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "518.03"^^xsd:numeric;
+  skos:prefLabel "Soil Shrinkage – Modified linear shrinkage"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile19> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/19"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "A collection of liquid and pastic limits procedures"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile519.01>, <http://anzsoil.org/def/au/spm/spmile519.02>,
+    <http://anzsoil.org/def/au/spm/spmile519.03>;
+  skos:prefLabel "Liquid and Plastic Limits"@en .
+
+<http://anzsoil.org/def/au/spm/spmile519.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/519.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Liquid limit – Casagrande"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "519.01"^^xsd:numeric;
+  skos:prefLabel "Liquid limit – Casagrande"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile519.02> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/519.02"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Liquid limit – Drop cone"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "519.02"^^xsd:numeric;
+  skos:prefLabel "Liquid limit – Drop cone"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile519.03> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/519.03"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Plastic limit (AS 1289.3.2.1)"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "519.03"^^xsd:numeric;
+  skos:prefLabel "Plastic limit (AS 1289.3.2.1)"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile20> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/20"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Measurement of Soil Strength Using Penetrometers"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile520.01>;
+  skos:prefLabel "Measurement of Soil Strength Using Penetrometers"@en .
+
+<http://anzsoil.org/def/au/spm/spmile520.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/520.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Soil strength characteristic"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "520.01"^^xsd:numeric;
+  skos:prefLabel "Soil strength characteristic"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
+
+<http://anzsoil.org/def/au/spm/spmile21> a skos:Collection;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/21"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Modulus of Rupture"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:member <http://anzsoil.org/def/au/spm/spmile521.01>;
+  skos:prefLabel "Modulus of Rupture"@en .
+
+<http://anzsoil.org/def/au/spm/spmile521.01> a skos:Concept, sosa:Procedure;
+  dcterms:creator "chapter author unless otherwise specified"@en;
+  dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/521.01"^^xsd:anyURI;
+  dcterms:source "PAGE No. x in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
+  skos:definition "Modulus of rupture"@en;
+  skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
+  skos:notation "521.01"^^xsd:numeric;
+  skos:prefLabel "Modulus of rupture"@en;
+  skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
