@@ -55,6 +55,7 @@ s:502 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/02"^^xsd:anyURI;
   dcterms:source "pp.11-34 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "A collection of field sampling procedures"@en;
+  skos:notation "502"^^xsd:numeric;
   skos:member s:502.01, s:502.02, s:502.03, s:502.04, s:502.05;
   skos:prefLabel "Field Sampling"@en .
 
@@ -113,6 +114,7 @@ s:503 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/03"^^xsd:anyURI;
   dcterms:source "pp.35-58 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "A collection of bulk density and pore space relations procedures"@en;
+  skos:notation "503"^^xsd:numeric;
   skos:member s:503.01, s:503.02, s:503.03, s:503.04, s:503.05, s:503.06, s:503.07,
     s:503.08, s:503.09;
   skos:prefLabel "Bulk Density and Pore Space Relations"@en .
@@ -212,6 +214,7 @@ s:504 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/04"^^xsd:anyURI;
   dcterms:source "pp. 59-84 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "A collection of soil water characterisation procedures"@en;
+  skos:notation "504"^^xsd:numeric;
   skos:member s:504.01, s:504.02, s:504.03;
   skos:prefLabel "The Soil Water Characteristic"@en .
 
@@ -250,6 +253,7 @@ s:505 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/05"^^xsd:anyURI;
   dcterms:source "p.85-90 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Water Repellence"@en;
+  skos:notation "505"^^xsd:numeric;
   skos:member s:505.01;
   skos:prefLabel "Water Repellence"@en .
 
@@ -268,6 +272,7 @@ s:507 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/07"^^xsd:anyURI;
   dcterms:source "pp.108-118 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Field Measurement of the Unsaturated Hydraulic Conductivity Using Tension Infiltrometers"@en;
+  skos:notation "507"^^xsd:numeric;
   skos:member s:507.01;
   skos:prefLabel "Field Measurement of the Unsaturated Hydraulic Conductivity Using Tension Infiltrometers"@en .
 
@@ -286,6 +291,7 @@ s:508 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/08"^^xsd:anyURI;
   dcterms:source "p.119-131 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "The Twin-Ring Method for Measuing Saturated Hydraulic Conducivity and Sorptivty in the Field"@en;
+  skos:notation "508"^^xsd:numeric;
   skos:member s:508.01;
   skos:prefLabel "The Twin-Ring Method for Measuing Saturated Hydraulic Conducivity and Sorptivty in the Field"@en .
 
@@ -304,6 +310,7 @@ s:509 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/09"^^xsd:anyURI;
   dcterms:source "p.131-149 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Field Measurement of Saturated Hydraulic Conductivity Using the Well Permeameter"@en;
+  skos:notation "509"^^xsd:numeric;
   skos:member s:509.01;
   skos:prefLabel "Field Measurement of Saturated Hydraulic Conductivity Using the Well Permeameter"@en .
 
@@ -322,6 +329,7 @@ s:510 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/10"^^xsd:anyURI;
   dcterms:source "p.150-163 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Laboratory Measurement of Hydraulic Conductivity"@en;
+  skos:notation "510"^^xsd:numeric;
   skos:member s:510.01, s:510.02, s:510.03, s:510.04, s:510.05;
   skos:prefLabel "Laboratory Measurement of Hydraulic Conductivity"@en .
 
@@ -380,6 +388,7 @@ s:513 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/13"^^xsd:anyURI;
   dcterms:source "pp.190-199 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Emerson Dispersion Test"@en;
+  skos:notation "513"^^xsd:numeric;
   skos:member s:513.01;
   skos:prefLabel "Emerson Dispersion Test"@en .
 
@@ -398,6 +407,7 @@ s:514 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/14"^^xsd:anyURI;
   dcterms:source "p.200-210 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Clay Dispersion"@en;
+  skos:notation "514"^^xsd:numeric;
   skos:member s:514.01, s:514.02, s:514.03, s:514.04;
   skos:prefLabel "Clay Dispersion"@en .
 
@@ -446,6 +456,7 @@ s:515 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/15"^^xsd:anyURI;
   dcterms:source "p.211-221 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Measurement of Size Distributions of Dry Soil Aggregates"@en;
+  skos:notation "515"^^xsd:numeric;
   skos:member s:515.01;
   skos:prefLabel "Measurement of Size Distributions of Dry Soil Aggregates"@en .
 
@@ -464,6 +475,7 @@ s:516 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/16"^^xsd:anyURI;
   dcterms:source "pp.222-223 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Non-Dispersed Particle Size Analysis"@en;
+  skos:notation "516"^^xsd:numeric;
   skos:member s:516.01;
   skos:prefLabel "Non-Dispersed Particle Size Analysis"@en .
 
@@ -482,6 +494,7 @@ s:517 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/17"^^xsd:anyURI;
   dcterms:source "p.224-240 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "A collection of particule size analysis procedures"@en;
+  skos:notation "517"^^xsd:numeric;
   skos:member s:517.01, s:517.02, s:517.03, s:517.04, s:517.05, s:517.06, s:517.07,
     s:517.08, s:517.09, s:517.10, s:517.11, s:517.12, s:517.13, s:517.14, s:517.15, s:517.16;
   skos:prefLabel "Particle Size Analysis"@en .
@@ -651,6 +664,7 @@ s:518 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/18"^^xsd:anyURI;
   dcterms:source "p.240-260 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "A collection of soil shrinkage procedures"@en;
+  skos:notation "518"^^xsd:numeric;
   skos:member s:518.01, s:518.02, s:518.03;
   skos:prefLabel "Soil Shrinkage"@en .
 
@@ -689,6 +703,7 @@ s:519 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/19"^^xsd:anyURI;
   dcterms:source "pp.261-270 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "A collection of liquid and pastic limits procedures"@en;
+  skos:notation "519"^^xsd:numeric;
   skos:member s:519.01, s:519.02, s:519.03;
   skos:prefLabel "Liquid and Plastic Limits"@en .
 
@@ -724,6 +739,7 @@ s:520 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/20"^^xsd:anyURI;
   dcterms:source "pp.271-277 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Measurement of Soil Strength Using Penetrometers"@en;
+  skos:notation "520"^^xsd:numeric;
   skos:member s:520.01;
   skos:prefLabel "Measurement of Soil Strength Using Penetrometers"@en .
 
@@ -741,6 +757,7 @@ s:521 a skos:Collection;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/21"^^xsd:anyURI;
   dcterms:source "pp.278-291 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Modulus of Rupture"@en;
+  skos:notation "521"^^xsd:numeric;
   skos:member s:521.01;
   skos:prefLabel "Modulus of Rupture"@en .
 
