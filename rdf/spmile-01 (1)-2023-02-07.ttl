@@ -683,9 +683,11 @@ s:518.02 a skos:Concept, sosa:Procedure;
   dcterms:identifier "http://anzsoil.org/def/au/spm/spmile/518.02"^^xsd:anyURI;
   dcterms:source "p. 246 in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671."@en;
   skos:definition "Soil Shrinkage – Coefficient of linear shrinkage"@en;
+  skos:definition "COLE STD - Coefficient of Linear Extensibility"@en;
   skos:inScheme <http://anzsoil.org/def/au/spm/spmile>;
   skos:notation "518.02"^^xsd:numeric;
   skos:prefLabel "Soil Shrinkage – Coefficient of linear shrinkage"@en;
+  skos:altLabel "COLE STD - Coefficient of Linear Extensibility"@en;
   skos:topConceptOf <http://anzsoil.org/def/au/spm/spmile> .
 
 s:518.03 a skos:Concept, sosa:Procedure;
