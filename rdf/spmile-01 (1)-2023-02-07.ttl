@@ -32,7 +32,7 @@ spm:spmile a skos:ConceptScheme;
   dcterms:description "This Concept Scheme is a machine-readable representation of the soil physical methods and their codes in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. CSIRO Publishing 2002. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671. The list includes soil physical measurement methods including procedures for field sampling, individual methods for pore space relations, water retention, hydraulic conductivity, watertable depth, dispersion, aggregation, particle size, shrinkage, Atterberg limits and strength and procedures for estimating soil physical properites from more readliy available data."^^rdf:HTML;
   dcterms:identifier "http://anzsoil.org/def/au/scma/spmile"^^xsd:anyURI;
   dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/2188013>;
-  dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:license <https://creativecommons.org/licenses/by/4.0/>;
   dcterms:publisher <https://ror.org/051hpv692>;
   dcterms:rights "All rights reserved. Except under the conditions described in the Australian Copyright Act 1968 and subsequent amendments, no part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, duplicating or otherwise, without the prior permission of the copyright owner. Contact CSIRO PUBLISHING for all permission requests."@en;
   dcterms:rightsHolder <https://ror.org/051hpv692>;
