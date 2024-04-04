@@ -28,7 +28,7 @@ spm:spmile a skos:ConceptScheme;
   dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular>;
   dcterms:contributor "Australian collaborative land evaluation program (ACLEP) https://www.clw.csiro.au/aclep/"@en,
     "National Heritage Trust"@en, <https://orcid.org/0000-0002-2991-2308>, <https://orcid.org/0000-0002-3884-3420>, <https://orcid.org/0000-0002-3884-3420>,
-    <https://ror.org/03qn8fb07>;
+    <https://ror.org/03qn8fb07>, <https://ror.org/search?page=1&query=DAFF>;
   dcterms:created "2022-02-01"^^xsd:date;
   dcterms:creator "Hamish Cresswell"@en, "Kep Coughlan"@en, "Neil McKenzie"@en;
   dcterms:description "This Concept Scheme is a machine-readable representation of the soil physical methods and their codes in Soil physical measurement and interpretation for land evaluation. Volume 5. Neil McKenzie, Kep Coughlan and Hamish Cresswell. CSIRO Publishing 2002. https://catalogue.nla.gov.au/Record/2188013. ISBN 0643067671. The list includes soil physical measurement methods including procedures for field sampling, individual methods for pore space relations, water retention, hydraulic conductivity, watertable depth, dispersion, aggregation, particle size, shrinkage, Atterberg limits and strength and procedures for estimating soil physical properites from more readliy available data."^^rdf:HTML;
