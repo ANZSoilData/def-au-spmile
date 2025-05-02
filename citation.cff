@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+  - family-names: Wong
+    given-names: Megan
+    orcid: https://orcid.org/0000-0002-2991-2308
+  - family-names: Cox
+    given-names: Simon
+    orcid: https://orcid.org/0000-0002-3884-3420
+title: "Soil Physical Measurements and Interpretation for Land Evaluation"
+version: 1.0.0
+doi: 10.5281/zenodo.15321177
+date-released: 2025-05-02
+url: "https://anzsoil.org/def/au/def-au-spmile"
+license: CC0
+license-url: https://creativecommons.org/choose/zero/
