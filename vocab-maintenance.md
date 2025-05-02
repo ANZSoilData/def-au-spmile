@@ -1,4 +1,27 @@
-![image](https://user-images.githubusercontent.com/49380601/219277583-6de425d2-d458-4ade-a822-75aa02cabe2d.png)
+Vocabulary Maintenance
+Load this repository locally e.g. using GitHub Desktop Create a branch to make your edits Edit scm.ttl direct in your editor of choice, save changes locally Commit changes to your banch Submit a pull request to the main branch
 
-![image](https://user-images.githubusercontent.com/49380601/219277491-e5b9ad16-298f-481a-bac4-cd99e3251832.png)
+Loading in RVA
+In demo mode: If you want to do a test, load the vocabulary in development mode. To to this, log on to https://demo.vocabs.ardc.edu.au
 
+alternativly log in in production mode - Login to https://vocabs.ardc.edu.au and go to 'My Vocabs'.
+
+Add a new Vocabulary
+Select owner
+
+Enter metadata.
+
+Add a version - give the version a short name
+
+Add Access Point
+
+TTL
+Select scma.ttl
+Add
+Display Collections and Concept Schemes
+Import, make available
+image
+
+Add this version
+
+Publish
