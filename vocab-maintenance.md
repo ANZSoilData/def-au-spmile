@@ -2,7 +2,7 @@
 
 Load this repository locally e.g. using GitHub Desktop
 Create a branch to make your edits
-Edit scm.ttl direct in your editor of choice, save changes locally
+Edit spmile .ttl direct in your editor of choice, save changes locally
 Commit changes to your banch
 Submit a pull request to the main branch
 
