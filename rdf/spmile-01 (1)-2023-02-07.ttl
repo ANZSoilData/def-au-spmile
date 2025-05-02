@@ -26,6 +26,7 @@
 
 spm:spmile a skos:ConceptScheme;
   dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular>;
+  dcat:version "1.0"^^xsd:numeric;
   dcterms:contributor "Australian collaborative land evaluation program (ACLEP) https://www.clw.csiro.au/aclep/"@en,
     "National Heritage Trust"@en, <https://orcid.org/0000-0002-2991-2308>, <https://orcid.org/0000-0002-3884-3420>, <https://orcid.org/0000-0002-3884-3420>,
     <https://ror.org/03qn8fb07>;
