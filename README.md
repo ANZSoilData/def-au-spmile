@@ -1,9 +1,9 @@
+To cite: " ![image](https://github.com/user-attachments/assets/2c4f58ec-9e8c-4b83-ac8a-50d6072a0ac0)
+
+
 # Soil Physical Measurement and Interpretation for Land Evaluation
 
-Preparation and maintenance of a machine-readable representation of soil physical methods, including Concept Scheme the soil physical measurement methods described in Soil Physical Measurement and Interpretation for Land Evaluation. Keppel K. Coughlan; HAmish H Cresswell; Niel N. McKenzie. Publisher CSIRO Copyright 2002.
-
-
-**NOTE: this is work-in-progress and currently incomplete**
+Preparation and maintenance of a machine-readable representation of soil physical measurement methods described in Soil Physical Measurement and Interpretation for Land Evaluation. Keppel K. Coughlan; Hamish H Cresswell; Niel N. McKenzie. Publisher CSIRO Copyright 2002.
 
 Contact: 
 
