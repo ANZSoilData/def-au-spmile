@@ -1,4 +1,4 @@
-To cite: " ![image](https://github.com/user-attachments/assets/2c4f58ec-9e8c-4b83-ac8a-50d6072a0ac0)
+To cite:  ![image](https://github.com/user-attachments/assets/2c4f58ec-9e8c-4b83-ac8a-50d6072a0ac0)
 
 
 # Soil Physical Measurement and Interpretation for Land Evaluation
